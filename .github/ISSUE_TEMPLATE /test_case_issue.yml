@@ -1,4 +1,4 @@
-name: Propose TestCase
+name: Propose TestCase Issue
 description: JUnit TestCase 제안서
 title: "[TestCase] <제목>"
 labels: ["TestCase"]
