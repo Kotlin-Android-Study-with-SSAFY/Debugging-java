@@ -8,7 +8,7 @@ import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-import com.ssafy.equals.Person;
+import com.ssafy.object.Person;
 
 @TestMethodOrder(value = MethodOrderer.OrderAnnotation.class)
 class EqualsTest {

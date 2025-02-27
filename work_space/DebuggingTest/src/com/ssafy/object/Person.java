@@ -1,4 +1,4 @@
-package com.ssafy.equals;
+package com.ssafy.object;
 
 import com.ssafy.util.SHA256;
 

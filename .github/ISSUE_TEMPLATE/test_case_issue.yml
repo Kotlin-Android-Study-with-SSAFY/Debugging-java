@@ -30,3 +30,13 @@ body:
       placeholder: ex. Object의 equals 함수 재정의를 통해 올바른 객체 비교가 가능하도록 하는 테스트
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Test Case Code
+      description: "JUnit Code 작성"
+      value: |
+        ``` java
+        // Code
+        ```
+    validations:
+      required: false
