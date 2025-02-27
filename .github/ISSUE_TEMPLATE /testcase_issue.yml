@@ -1,0 +1,32 @@
+name: Propose TestCase
+description: JUnit TestCase 제안서
+title: "[TestCase] <제목>"
+labels: ["TestCase"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Chapter
+      description: "관련 Chapter에 체크"
+      options:
+        - label: Collection
+        - label: Object
+        - label: FileIO
+        - label: Modifier
+        - label: Exception
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: PR 여부
+      description: "JUnit Test Case 코드를 직접 작성하고 PR을 통한 제안(Issue & PR)인지, Issue 제안서로만 하는 제안(Only Issue)인지 체크"
+      options:
+        - label: Issue & PR
+        - label: Only Issue
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Test Case에 대한 설명
+      placeholder: ex. Object의 equals 함수 재정의를 통해 올바른 객체 비교가 가능하도록 하는 테스트
+    validations:
+      required: true
